@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="mode-selection">
+            <button class="mode-btn active" data-mode="multiplayer">2 Players</button>
+            <button class="mode-btn" data-mode="singleplayer">VS AI</button>
+        </div>
+        <div id="status" class="status"></div>
+        <div class="superpowers">
+            <div class="player-powers">
+                <h3>Player X Powers</h3>
+                <div class="power-buttons">
+                    <button class="power-btn" data-power="buckshot" data-player="X">Buckshot (3)</button>
+                    <button class="power-btn" data-power="laser" data-player="X">Laser (3)</button>
+                    <button class="power-btn" data-power="cement" data-player="X">Cement (3)</button>
+                </div>
+            </div>
+            <div class="player-powers">
+                <h3>Player O Powers</h3>
+                <div class="power-buttons">
+                    <button class="power-btn" data-power="buckshot" data-player="O">Buckshot (3)</button>
+                    <button class="power-btn" data-power="laser" data-player="O">Laser (3)</button>
+                    <button class="power-btn" data-power="cement" data-player="O">Cement (3)</button>
+                </div>
+            </div>
+        </div>
+        <div class="game-board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <button id="restartButton">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
